@@ -27,7 +27,7 @@ setup(
     keywords="financial exchange cryptocurrency",
     packages=find_packages(exclude=["contrib", "docs", "tests"]),  # Required
     python_requires=">=3.7.*, <4",
-    install_requires=[],  # Optional
+    install_requires=["matplotlib", "numpy"],  # Optional
     extras_require={"dev": ["check-manifest", "pycodestyle", "mypy", "pre-commit"], "test": ["coverage", "pytest"]},
     entry_points={"console_scripts": ["template_python=template_python:cli"]},
     project_urls={
