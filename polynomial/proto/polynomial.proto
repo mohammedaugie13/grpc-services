@@ -5,15 +5,11 @@ message PolynomialInput{
 }
 
 message PolynomialOutput{
-    message Result{
-        float res_x = 1;
-        float res_y = 2;
-    }
+    float res_x = 1;
+    float res_y = 2;
 
-    Result results = 1;
 }
 
 service Polynomial{
-    rpc Solve(PolynomialInput) returns (PolynomialOutput){}
-
+    rpc Solve(PolynomialInput) returns (PolynomialOutput) {}
 }

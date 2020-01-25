@@ -5,12 +5,11 @@ import polynomial_pb2 as polynomial__pb2
 
 
 class PolynomialStub(object):
-  # missing associated documentation comment in .proto file
-  pass
+    # missing associated documentation comment in .proto file
+    pass
 
   def __init__(self, channel):
     """Constructor.
-
     Args:
       channel: A grpc.Channel.
     """
